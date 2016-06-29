@@ -13,7 +13,9 @@ a {
 .container {
 	width: 100%;
 	min-height: 100%;
-	background-color: rgba(155, 89, 182,.7);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0,0.2)),url("../assets/images/01-Hello-Cupcake.jpg");
+	background-position: center;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;

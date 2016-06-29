@@ -1,20 +1,21 @@
 $(function(){
-	//$('.modal div').hide();
+	//OPens the menu
 	$('#menu').click(function(){
 		$('.menu').addClass('flex');
 	});
+	//Uses the X to close the open modal
 	$('#photo-x').click(function(){
 		$('.modal').removeClass('flex');
 	});
+	//OPens the photos
 		$('#photos').click(function(){
-			console.log('afafafaf');
 		$('.photos').addClass('flex');
 	});
+	//OPens the map
 		$('#location').click(function(){
-			console.log('afafafaf');
 		$('.location').addClass('flex');
 	});
-
+	
 	$('.thumbnail img').click(function(){
 		var source = $(this).attr('src');
 		$('.black-box').fadeIn('slow');
